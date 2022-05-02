@@ -7,7 +7,7 @@ programa
 		salario, salarioTotal=0, percentualMenorQue100
 		inteiro filhos,filhosTotal=0,i
 
-		para(i= 1; i<=20; i++){
+		para(i= 1; i<=4; i++){
 			escreva(i+"° usuário digite seu sálario: ")
 			leia(salario)
 			escreva(i+"° usuário digite quantos filhos você tem: ")
@@ -15,6 +15,7 @@ programa
 			escreva("\n")//quebrar linha
 			salarioTotal += salario
 			filhosTotal += filhos
+			
 			se(salario>maiorSalario){
 				maiorSalario = salario
 			}
@@ -29,6 +30,7 @@ programa
 
 		escreva("\nO sálario médio é de: "+ mediaSalario+" reais")
 		escreva("\nA média de filhos é de: "+mediaFilhos+" filhos")
+		escreva("\nO maior sálario é de: "+maiorSalario)
 		escreva("\nA porcentagem de pessoas que possuem sálario até 100 reais é de: "+percentualMenorQue100+"%")
 
 		
@@ -39,7 +41,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 785; 
+ * @POSICAO-CURSOR = 673; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
